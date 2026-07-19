@@ -11,9 +11,10 @@ body {
 .page {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 48px 20px;
+  padding: 40px 20px;
+  overflow-y: auto;
 }
 
 .card {
@@ -22,8 +23,9 @@ body {
   box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 20px 40px -8px rgba(16, 24, 40, 0.12);
   width: 100%;
   max-width: 460px;
-  padding: 40px 36px;
+  padding: 32px 32px;
   border: 1px solid #EEF1F6;
+  
 }
 
 .card-header h1 {
@@ -43,7 +45,7 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
 }
 
 .field {
